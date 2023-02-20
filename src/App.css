@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+.navBar{
+  padding:20px;
+  margin-bottom: 50px;
+}
+.navBar a{
+  color:black;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+.navBar a::before,
+.navBar a::after{
+  content:'';
+  display: inline-block;
+  margin: 0px 5px 3px 5px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: black;
+}
+.navBar a.active{
+  color:tomato;
+  text-decoration: underline;
+  font-size: 22px;
+}
+.navBar a.active::before,
+.navBar a.active::after{
+background-color: tomato;
+}
