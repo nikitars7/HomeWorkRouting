@@ -21,7 +21,7 @@ const Article = () => {
         <p>{`Title: ${post.title}`}</p>
         <p>{`Body: ${post.body}`}</p>
       </div>
-      <button className={styles.Button} onClick={() => navigate("/HomeWorkRouting")}>
+      <button className={styles.Button} onClick={() => navigate("/")}>
         MainPage
       </button>
       <button className={styles.Button} onClick={() => navigate(-1)}>

@@ -9,12 +9,12 @@ function App() {
   return (
     <div className="App">
       <nav className="navBar">
-        <NavLink to="/HomeWorkRouting">MainPage</NavLink>
+        <NavLink to="/">MainPage</NavLink>
         <NavLink to="/articles">Articles</NavLink>
         <NavLink to="/aboutus">AboutUs</NavLink>
       </nav>
       <Routes>
-        <Route path="/HomeWorkRouting" element={<MainPage />} />
+        <Route path="/" element={<MainPage />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/articles" element={<Articles />} />
         <Route path="/articles/:id" element={<Article />} />
